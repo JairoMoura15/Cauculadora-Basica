@@ -1,0 +1,20 @@
+print("Você está na Cauculadora Online")
+
+nome = input("Digite seu Nome:")
+print(" {}".format(nome))
+
+
+numero1 = int(input("Digite o Primeiro Número:"))
+numero2 = int(input("Digite o Segundo Número:"))
+
+soma = numero1 + numero2
+print("Adição: {}".format(soma))
+
+subtração = numero1 - numero2
+print("Subtração: {}".format(subtração))
+
+multiplicação = numero1 * numero2
+print("Multiplicação: {}".format(multiplicação))
+
+divisão = numero1 / numero2
+print("Divisão: {}".format(divisão))
